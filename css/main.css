@@ -10,10 +10,16 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+/** {
+    border: 1px solid #992b1e;
+}*/
+
+
 html {
-    color: #222;
+    color: #708090;
     font-size: 1em;
     line-height: 1.4;
+    font-family: 'Amatic SC', cursive;
 }
 
 /*
@@ -94,11 +100,117 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*My colors
+#708090 = Gray
+#992b1e = orange*/
 
 
+}
+
+#header, #footer, nav li {
+    list-style: none;
+}
+
+header {
+    border-top: solid 2px #992b1e;
+    border-bottom: solid 2px #992b1e;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+footer {
+    border-top: solid 2px #992b1e;
+    border-bottom: solid 2px #992b1e;
+    margin-left: 10px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+    line-height: 120px;
+}
+
+h1 {
+    float: left;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.links {
+    text-decoration: none;
+    color: #555555;
+}
+
+.nav_links {
+    font-size: 20pt;
+}
+
+li {
+    display: inline-block;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+#nav_container {
+    text-align: right;
+}
+
+body {
+    width: 100%;
+    height: 100%; 
+    margin-top: 25px;
+}
+
+.banner_image {
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.text {
+    height: 55.5%;
+    width: 35%;
+    float: right;
+    margin-top: 70px; 
+    color: #708090;
+    font-size: 20pt;
+}
+
+img {
+    height: auto;
+    width: 55%;
+    float: right;
+    margin-top: 90px;    
+    border: 2px solid Black;
+    margin-right: 45px;
+}
+
+.text {
+    margin-right: 35px;
+    text-align: justify;
+}
+
+nav a:hover, h1 a:hover {
+    text-decoration: underline;
+}
 
 
+nav {
+    padding-right: 13px;
+}
 
+h1 a {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 35pt;
+    color: #555555;
+}
+
+h2 {
+    text-align: center;
+    color: #555555;
+    margin-top: 0px;
+}
 
 
 
