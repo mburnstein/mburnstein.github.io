@@ -130,7 +130,7 @@ footer {
 
 h1 {
     float: left;
-    padding-left: 40px;
+    padding-left: 60px;
     padding-top: 20px;
     padding-bottom: 10px;
     margin-top: 0px;
@@ -165,39 +165,57 @@ body {
 .banner_image {
     height: 600px;
     width: 100%;
-    position: relative;
 }
 
-.text {
-    height: 55.5%;
-    width: 35%;
-    float: right;
-    margin-top: 70px; 
-    color: #708090;
+.textBox {
+    height: auto;
+    width: 30%;
+    float: left;
     font-size: 20pt;
+    margin-left: 70px;
+    text-align: justify;
+    margin-top: 70px;
+
+}
+
+.textBox_accomplishments {
+    font-size: 14pt;
+}
+
+.textBox_accomplishments p {
+    margin-bottom: 0px;
+}
+
+.textBox_accomplishments li {
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 img {
     height: auto;
     width: 55%;
+    border: 2px solid black;
+    margin-top: 90px;
     float: right;
-    margin-top: 90px;    
-    border: 2px solid Black;
+    margin-right: 60px;
+}
+
+.imageBox {
+    height: 90%;
+    width: 55%;
+    float: right;
     margin-right: 45px;
+    margin-top: 0px;
+    margin-bottom: auto;
+    position: relative;
 }
 
-.text {
-    margin-right: 35px;
-    text-align: justify;
-}
-
-nav a:hover, h1 a:hover {
+a:hover {
     text-decoration: underline;
 }
 
-
 nav {
-    padding-right: 13px;
+    padding-right: 25px;
 }
 
 h1 a {
@@ -210,6 +228,10 @@ h2 {
     text-align: center;
     color: #555555;
     margin-top: 0px;
+}
+
+p {
+    color: #555555;
 }
 
 
