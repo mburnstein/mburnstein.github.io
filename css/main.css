@@ -104,8 +104,7 @@ textarea {
 #708090 = Gray
 #992b1e = orange*/
 
-
-}
+/*GENERAL STYLING FOR ALL PAGES*/
 
 #header, #footer, nav li {
     list-style: none;
@@ -138,6 +137,11 @@ h1 {
 }
 
 .links {
+    text-decoration: underline;
+    color: #555555;
+}
+
+.h1_links {
     text-decoration: none;
     color: #555555;
 }
@@ -175,20 +179,6 @@ body {
     margin-left: 70px;
     text-align: justify;
     margin-top: 70px;
-
-}
-
-.textBox_accomplishments {
-    font-size: 14pt;
-}
-
-.textBox_accomplishments p {
-    margin-bottom: 0px;
-}
-
-.textBox_accomplishments li {
-    margin-top: 4px;
-    margin-bottom: 4px;
 }
 
 img {
@@ -211,7 +201,11 @@ img {
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #992B1E;
+}
+
+a:active {
+    color: #992B1E;
 }
 
 nav {
@@ -233,6 +227,39 @@ h2 {
 p {
     color: #555555;
 }
+
+/*STYLING FOR WELCOME PAGE ONLY*/
+
+
+
+/*STYLING FOR ME NOW PAGE ONLY*/
+
+
+
+/*STYLING FOR ACCOMPLISHMENTS PAGE ONLY*/
+
+.textBox_accomplishments {
+    font-size: 14pt;
+}
+
+.textBox_accomplishments p {
+    margin-bottom: 0px;
+}
+
+.textBox_accomplishments li {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+
+/*STYLING FOR TRAVEL PAGE ONLY*/
+
+.travel {
+    font-size: 12pt;
+}
+
+/*STYLING FOR FRESNO PAGE ONLY*/
+
 
 
 
